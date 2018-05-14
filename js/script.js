@@ -58,7 +58,7 @@ $(document).ready(function(){
     var feed = new Instafeed({
         get: "user",
         userId: "2257867146",
-        limit: 9,
+        limit: 6,
         resolution: "standard_resolution",
         accessToken: "2257867146.1677ed0.94bc3eb2aa4b43129cb8768584c4872d",
         template: '<div class="col-lg-2 col-xs-12 gallery"><a href="{{link}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>'
