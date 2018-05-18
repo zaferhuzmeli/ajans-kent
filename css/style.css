@@ -732,60 +732,10 @@ icon-holder {
     z-index: 1
 }
 
-#back img{
-    display: block;
-    position: relative;
-    vertical-align: middle;
+.back>a>img{
     width: 100%;
     height: 100%;
 }
-
-#back-img .owl-nav{
-    position: absolute;
-    left: 0px;
-    top: 30%;
-    vertical-align: middle;
-	width:100%;
-    max-width:750px;
-	margin:0 auto;
-}
-
-#back-img .owl-nav .owl-prev,
-#back-img .owl-nav .owl-next{
-    display:inline-block;
-	color:#424242;
-	font-size:30px;
-	line-height:1em;
-	-webkit-transition:all 300ms ease;
-	-ms-transition:all 300ms ease;
-	-o-transition:all 300ms ease;
-	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
-}
-
-#back-img .owl-nav .owl-prev:hover,
-#back-img .owl-nav .owl-next:hover{
-    color: #fff;
-}
-
-#back-img .owl-nav .owl-prev{
-    position: absolute;
-    left: 0px;
-}
-
-#back-img .owl-nav .owl-next{
-    position: absolute;
-    right: 0px;
-}
-
-#back-img .owl-carousel .owl-stage {
-    display: flex;
-    align-items: center;
-  }
-  
- #back0img .owl-carousel .caption {
-    text-align: center;
-  }
 
 .item-services:hover .back {
     transform: perspective(1000px) rotateY(0deg);
@@ -863,6 +813,15 @@ icon-holder {
     color: #fdcf08;
     margin: 0 0 25px 0;
     text-transform: uppercase
+}
+
+.about-us-text details summary{
+    content: "Daha Fazla";
+    font-size: 20px;
+}
+
+.about-us-text details[open] summary:after{
+    content: "Daha Az";
 }
 
 .about-us-text p {
