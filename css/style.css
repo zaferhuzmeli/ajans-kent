@@ -374,7 +374,6 @@ h3 {
 ul li a {
     color: #fff;
     text-decoration: none;
-    text-transform: uppercase;
     position: relative
 }
 
@@ -1062,6 +1061,12 @@ input[type="date"],input[type="text"] {
 
 #instafeed .gallery {
     padding: 5px
+}
+
+@media(min-width: 1024px){
+    .hero-text{
+        width: 35%;
+    }
 }
 
 @media(max-width: 991px) {
