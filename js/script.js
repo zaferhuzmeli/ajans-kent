@@ -83,7 +83,6 @@ if($('.lightbox-image').length) {
 $(document).ready(function() {
  
     $(".owl-carousel").owlCarousel({
-        
         loop:false,
 		mouseDrag:true,
 		margin:0,
