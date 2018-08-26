@@ -25,6 +25,8 @@ $(function() {
                 window.location.hash = t
             })
         }
+
+        $(".navbar-toggle").click();
     }),
     $(".hero-img").backstretch(["img/background/1.jpg", "img/background/2.jpg", "img/background/3.jpg"], {
         duration: 3e3,

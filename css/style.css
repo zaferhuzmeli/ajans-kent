@@ -1150,7 +1150,8 @@ input[type="date"],input[type="text"] {
         max-height: none
     }
 
-    navbar-fixed-bottom .navbar-collapse.in,.navbar-fixed-top .navbar-collapse.in {
+    .navbar-fixed-bottom .navbar-collapse.in,
+    .navbar-fixed-top .navbar-collapse.in {
         transform: translateX(0)
     }
 
