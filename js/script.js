@@ -41,7 +41,7 @@ $(function() {
         }, 1e3)
     }),
     $("html").niceScroll({
-        cursorcolor: "#fdcf08",
+        cursorcolor: "#1750a4",
         cursorborder: "none",
         zindex: 999
     });

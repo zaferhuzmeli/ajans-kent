@@ -7,7 +7,7 @@ body,html {
     font-size: 14px;
     line-height: 1.5;
     font-family: Roboto;
-    background: #272e32;
+    background: white;
     position: relative
 }
 
@@ -22,7 +22,7 @@ h1 {
     font-size: 60px;
     text-align: center;
     line-height: 1.5;
-    color: #fff
+    color: #000
 }
 
 h2 {
@@ -32,7 +32,7 @@ h2 {
     margin: 0 0 10px;
     text-align: center;
     line-height: 1.5;
-    color: #fff;
+    color: #000;
 }
 
 h3 {
@@ -42,7 +42,7 @@ h3 {
     margin: 0 0 25px;
     text-align: center;
     line-height: 1.5;
-    color: #fff;
+    color: #000;
 }
 
 .section-padding {
@@ -50,15 +50,15 @@ h3 {
 }
 
 ::selection {
-    color: #fff;
+    color: #000;
     text-shadow: none;
-    background: #fdcf08 !important;
+    background: #1750a4 !important;
 }
 
 ::-moz-selection {
-    color: #fff;
+    color: #000;
     text-shadow: none;
-    background: #fdcf08
+    background: #1750a4
 }
 
 .loading-overlay {
@@ -67,7 +67,7 @@ h3 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #fdcf08;
+    background: #1750a4;
     z-index: 99999
 }
 
@@ -299,7 +299,7 @@ h3 {
 }
 
 .navbar-brand {
-    padding: 24px 15px
+    padding: 0px 15px
 }
 
 .navbar-brand>img {
@@ -311,7 +311,7 @@ h3 {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #fff;
+    color: #000;
     transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -319,7 +319,7 @@ h3 {
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    color: #fdcf08
+    color: #1750a4
 }
 
 .navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover {
@@ -374,7 +374,7 @@ h3 {
 }
 
 ul li a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     position: relative
 }
@@ -383,7 +383,7 @@ ul li a:before {
     content: '';
     width: 0;
     height: 3px;
-    background: #fdcf08;
+    background: #1750a4;
     position: absolute;
     top: 100%;
     left: 0;
@@ -397,7 +397,7 @@ ul li a:after {
     content: '';
     width: 0;
     height: 3px;
-    background: #fdcf08;
+    background: #1750a4;
     position: absolute;
     top: 100%;
     right: 0;
@@ -466,7 +466,7 @@ ul li a:after {
 .hero-overlay {
     width: 100%;
     height: 100%;
-    background: rgba(39,46,50,0.4)
+    background: white;
 }
 
 .hero-text {
@@ -483,7 +483,7 @@ ul li a:after {
 }
 
 .scroll-down {
-    color: #fdcf08;
+    color: #1750a4;
     font-size: 22px;
     line-height: 1.5;
     text-align: center;
@@ -499,54 +499,54 @@ ul li a:after {
 @keyframes animate {
     0% {
         transform: translateY(-25px);
-        text-shadow: 0 25px 0 #fdcf08
+        text-shadow: 0 25px 0 #1750a4
     }
 
     20% {
         transform: translateY(0px);
-        text-shadow: 0 0 0 #fdcf08
+        text-shadow: 0 0 0 #1750a4
     }
 
     40% {
         transform: translateY(0px);
-        text-shadow: 0 5px 0 #fdcf08
+        text-shadow: 0 5px 0 #1750a4
     }
 
     60% {
         transform: translateY(0px);
-        text-shadow: 0 5px 0 #fdcf08
+        text-shadow: 0 5px 0 #1750a4
     }
 
     100% {
         transform: translateY(100px);
-        text-shadow: 0 -25px 0 #fdcf08
+        text-shadow: 0 -25px 0 #1750a4
     }
 }
 
 @-webkit-keyframes animate {
     0% {
         -webkit-transform: translateY(-25px);
-        text-shadow: 0 25px 0 #fdcf08
+        text-shadow: 0 25px 0 #1750a4
     }
 
     20% {
         -webkit-transform: translateY(0px);
-        text-shadow: 0 0 0 #fdcf08
+        text-shadow: 0 0 0 #1750a4
     }
 
     40% {
         -webkit-transform: translateY(0px);
-        text-shadow: 0 5px 0 #fdcf08
+        text-shadow: 0 5px 0 #1750a4
     }
 
     60% {
         -webkit-transform: translateY(0px);
-        text-shadow: 0 5px 0 #fdcf08
+        text-shadow: 0 5px 0 #1750a4
     }
 
     100% {
         -webkit-transform: translateY(100px);
-        text-shadow: 0 -25px 0 #fdcf08
+        text-shadow: 0 -25px 0 #1750a4
     }
 }
 
@@ -581,7 +581,7 @@ ul li a:after {
     width: 100%;
     height: 100%;
 	text-align:center;
-    background-color: #fdcf08;
+    background-color: #1750a4;
 	transition:all 0.9s ease;
 	-moz-transition:all 0.9s ease;
 	-webkit-transition:all 0.9s ease;
@@ -611,7 +611,7 @@ ul li a:after {
      background-color: #ffffff;
      border-radius: 50%;
      text-align: center;
-     color: #fdcf08;
+     color: #1750a4;
      z-index: 10;
      line-height: 36px;
      display: inline-block !important;
@@ -657,7 +657,7 @@ ul li a:after {
 }
 
 .services {
-    background: #272e32;
+    background: white;
     text-align: center;
     overflow: hidden;
     padding-bottom: 70px
@@ -685,7 +685,7 @@ ul li a:after {
     height: 282px;
     width: 100%;
     padding: 73px 0;
-    background: #272e32;
+    background: white;
     position: absolute;
     top: 0;
     left: 0;
@@ -718,8 +718,8 @@ icon-holder {
 
 .back {
     padding: 40px;
-    background: #fdcf08;
-    color: #424242;
+    background: #1750a4;
+    color: white;
     height: 282px;
     width: 100%;
     position: relative;
@@ -776,7 +776,7 @@ icon-holder {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: url('../img/background/about-bg.jpg') no-repeat center center fixed;
+    /* background: url('../img/background/about-bg.jpg') no-repeat center center fixed; */
     background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -811,7 +811,7 @@ icon-holder {
 }
 
 .about-us-text h2 {
-    color: #fdcf08;
+    color: #1750a4;
     margin: 0 0 25px 0;
     text-transform: uppercase
 }
@@ -844,23 +844,23 @@ input[type="date"],input[type="text"] {
     line-height: 1.5;
     height: 42px;
     width: 100%;
-    color: #fdcf08;
+    color: #1750a4;
     margin-bottom: 30px;
     padding-left: 25px;
     background: transparent;
-    border: 3px solid #fdcf08
+    border: 3px solid #1750a4
 }
 
 ::placeholder {
-    color: #fdcf08
+    color: #1750a4
 }
 
 ::-moz-placeholder {
-    color: #fdcf08
+    color: #1750a4
 }
 
 .contact-us {
-    background: #272e32;
+    background: white;
     text-align: center
 }
 
@@ -875,23 +875,23 @@ input[type="date"],input[type="text"] {
     line-height: 1.5;
     height: 42px;
     width: 100%;
-    color: #fdcf08;
+    color: #1750a4;
     padding-left: 25px;
     background: transparent;
-    border: 3px solid #fdcf08
+    border: 3px solid #1750a4
 }
 
 .contact-us textarea {
     height: 170px;
     width: 100%;
-    color: #fdcf08;
+    color: #1750a4;
     font-family: roboto;
     font-size: 14px;
     line-height: 1.5;
     padding: 25px;
     margin-bottom: 30px;
     background: transparent;
-    border: 3px solid #fdcf08
+    border: 3px solid #1750a4
 }
 
 .contact-us input[type="Submit"] {
@@ -904,8 +904,8 @@ input[type="date"],input[type="text"] {
     line-height: 1.5;
     padding: 25px;
     margin-bottom: 30px;
-    background: #fdcf08;
-    border: 3px solid #fdcf08;
+    background: #1750a4;
+    border: 3px solid #1750a4;
     transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -913,9 +913,9 @@ input[type="date"],input[type="text"] {
 }
 
 .contact-us input[type="Submit"]:hover {
-    color: #fdcf08;
+    color: #1750a4;
     background: transparent;
-    border: 3px solid #fdcf08
+    border: 3px solid #1750a4
 }
 
 #scroll-top {
@@ -929,7 +929,7 @@ input[type="date"],input[type="text"] {
     line-height: 50px;
     text-align: center;
     border-radius: 50%;
-    background: #272e32;
+    background: white;
     cursor: pointer;
     opacity: .4;
     display: none;
@@ -942,7 +942,7 @@ input[type="date"],input[type="text"] {
 
 #scroll-top:hover {
     color: #fff;
-    background: #fdcf08;
+    background: #1750a4;
     opacity: 1
 }
 
@@ -979,7 +979,7 @@ input[type="date"],input[type="text"] {
 }
 
 .footer-about-us ul li a:hover {
-    color: #fdcf08
+    color: #1750a4
 }
 
 .address-align {
@@ -998,13 +998,13 @@ input[type="date"],input[type="text"] {
 }
 
 .fa-address {
-    color: #fdcf08;
+    color: #1750a4;
     line-height: 1.5;
     margin-right: 15px
 }
 
 .address ul li {
-    color: #fff;
+    color: #000;
     margin-bottom: 15px
 }
 
@@ -1139,7 +1139,7 @@ input[type="date"],input[type="text"] {
         padding: 10px 0;
         width: 100%;
         text-align: center;
-        background-color: #272e32;
+        background-color: white;
         position: fixed;
         right: 0;
         height: 100%!important;
@@ -1204,12 +1204,12 @@ input[type="date"],input[type="text"] {
     .form-select select {
         height: 42px;
         width: 100%;
-        color: #fdcf08;
+        color: #1750a4;
         padding: 0 25px;
         position: relative;
         z-index: 2;
         background: transparent;
-        border: 3px solid #fdcf08;
+        border: 3px solid #1750a4;
         appearance: none;
         -o-appearance: none;
         -ms-appearance: none;
@@ -1226,7 +1226,7 @@ input[type="date"],input[type="text"] {
         width: 25px;
         height: 59px;
         z-index: 4;
-        background: #272e32
+        background: white
     }
 
     .form-select:after {
@@ -1236,7 +1236,7 @@ input[type="date"],input[type="text"] {
         font-size: 14px;
         text-align: center;
         line-height: 1.5;
-        color: #fdcf08;
+        color: #1750a4;
         position: absolute;
         top: 20px;
         right: 40px;
