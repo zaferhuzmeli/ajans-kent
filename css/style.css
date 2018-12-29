@@ -286,6 +286,7 @@ h3 {
 }
 
 .navbar-default {
+    height: 100px;
     background-color: transparent;
     border-color: transparent
 }
