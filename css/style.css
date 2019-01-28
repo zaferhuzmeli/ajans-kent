@@ -1053,7 +1053,7 @@ input[type="date"],input[type="text"] {
 }
 
 #instafeed img {
-    height: 200px;
+    height: auto;
     width: 100%;
     position: relative
 }
@@ -1107,7 +1107,6 @@ input[type="date"],input[type="text"] {
     .social h3{
         text-align: center;
     }
-    
 
     .social-align{
         text-align: center;
@@ -1127,6 +1126,10 @@ input[type="date"],input[type="text"] {
 }
 
 @media(max-width: 767px) {
+
+    #instafeed img{
+        height: 100px;
+    }
 
 
     h1 {

@@ -63,7 +63,7 @@ $(document).ready(function(){
         limit: 6,
         resolution: "standard_resolution",
         accessToken: "8627229753.1677ed0.411e1be8305e42aeb3858eafdc54a431",
-        template: '<div class="col-lg-2 col-xs-12 gallery"><a href="{{link}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>'
+        template: '<div class="col-lg-2 col-xs-4 gallery"><a href="{{link}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>'
     });
     feed.run();
 
